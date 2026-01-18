@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/dark.css" | relative_url }}">
 <main>
 <p class="muted">Technical reference and operational notes.</p>
 

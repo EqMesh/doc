@@ -4,22 +4,12 @@ nav: Index
 nav_order: 0
 ---
 
-  <strong>Getting started</strong>
-  <ul>
-    <li><a href="node/initial-setup.md">Node Initial setup</a></li>
-    <li><a href="faq/tailscale.md">Tailscale configuration</a></li>
-  </ul>
+This pages are mainly directed to integrators and technical people, see [the general FAQ](https://www.eqmesh.com/faq) for product related informations and help.
 
-  <strong>FAQ</strong>
-  <ul>
-    <li><a href="faq/index.md">All frequently asked questions</a></li>
-    <li><a href="faq/networking.md">Networking</a></li>
-    <li><a href="faq/troubleshooting.md">Troubleshooting</a></li>
-  </ul>
+## Most common setup steps
 
-  <strong>Reference</strong>
-  <ul>
-    <li><a href="reference/health-endpoint.md">Health endpoint</a></li>
-    <li><a href="reference/ports.md">Network ports</a></li>
-    <li><a href="reference/flags.md">Runtime flags</a></li>
-  </ul>
+1. Node Initial setup
+2. Health-scripts
+3. Tailscale Setup
+4. customization options
+

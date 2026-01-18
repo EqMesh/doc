@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="assets/style.css">
 
 <main>
-
-# EqMesh Documentation
 <p class="muted">Technical reference and operational notes.</p>
 
 <div class="section">

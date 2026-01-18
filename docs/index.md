@@ -1,5 +1,8 @@
-<main>
-<p class="muted">Technical reference and operational notes.</p>
+---
+title: Technical reference and operational notes.
+nav: Index
+nav_order: 0
+---
 
 <div class="section">
   <strong>Getting started</strong>
@@ -26,9 +29,3 @@
     <li><a href="reference/flags.md">Runtime flags</a></li>
   </ul>
 </div>
-
-<footer>
-  EqMesh internal documentation · Maintained via GitHub
-</footer>
-
-</main>

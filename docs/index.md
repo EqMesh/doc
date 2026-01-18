@@ -1,31 +1,38 @@
+<link rel="stylesheet" href="assets/style.css">
 
-### In `docs/index.md`
-Make it “docs-first” and link back to scripts paths.
+<main>
 
----
+# EqMesh Documentation
+<p class="muted">Technical reference and operational notes.</p>
 
-## One important detail: your publishing workflow must include `/docs`
-Because you’re mirroring `doc/` from private → root of public, just make sure in your private repo you eventually have:
+<div class="section">
+  <strong>Getting started</strong>
+  <ul>
+    <li><a href="node/initial-setup.md">Node Initial setup</a></li>
+    <li><a href="faq/tailscale.md">Tailscale configuration</a></li>
+  </ul>
+</div>
 
-- `doc/docs/index.md`
-- `doc/scripts/...`
+<div class="section">
+  <strong>FAQ</strong>
+  <ul>
+    <li><a href="faq/index.md">All frequently asked questions</a></li>
+    <li><a href="faq/networking.md">Networking</a></li>
+    <li><a href="faq/troubleshooting.md">Troubleshooting</a></li>
+  </ul>
+</div>
 
-…and it will appear in the public repo as:
-- `docs/index.md`
-- `scripts/...`
+<div class="section">
+  <strong>Reference</strong>
+  <ul>
+    <li><a href="reference/health-endpoint.md">Health endpoint</a></li>
+    <li><a href="reference/ports.md">Network ports</a></li>
+    <li><a href="reference/flags.md">Runtime flags</a></li>
+  </ul>
+</div>
 
-Perfect.
+<footer>
+  EqMesh internal documentation · Maintained via GitHub
+</footer>
 
----
-
-## Later upgrade path (if docs grow)
-If you want search + nav + versioning, switch Pages to a static generator (MkDocs or Docusaurus). But for now, **branch deploy from `/docs`** is the lowest maintenance.
-
----
-
-If you tell me what domain you want:
-- default `eqmesh.github.io/doc`
-- or a custom domain like `docs.eqmesh.io`
-
-…I’ll give you the exact DNS + Pages settings too.
-::contentReference[oaicite:0]{index=0}
+</main>

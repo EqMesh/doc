@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/dark.css">
 
-<main>
+<img src=assets/logo-450-tr.png height=42><main>
 <p class="muted">Technical reference and operational notes.</p>
 
 <div class="section">

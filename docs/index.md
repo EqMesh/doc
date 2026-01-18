@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/dark.css">
-
 <main>
 <p class="muted">Technical reference and operational notes.</p>
 
